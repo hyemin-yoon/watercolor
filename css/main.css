@@ -51,6 +51,17 @@ a,
     cursor: url(../images/cursor2.cur), auto
 }
 
+/* scroll-bar */
+
+body::-webkit-scrollbar {
+    width: 20px;
+    background-color: #DCE7F2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1a3a6b;
+}
+
 /* animation */
 
 @keyframes move1 {
@@ -84,16 +95,6 @@ a,
 
     100% {
         transform: rotate(0deg);
-    }
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(1.1);
-    }
-
-    to {
-        transform: scale(1);
     }
 }
 

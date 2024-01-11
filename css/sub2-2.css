@@ -43,8 +43,21 @@ html {
     cursor: url(../images/cursor1.cur), auto
 }
 
-a {
+a,
+.swiper-button-next,
+.swiper-button-prev {
     cursor: url(../images/cursor2.cur), auto
+}
+
+/* scroll-bar */
+
+body::-webkit-scrollbar {
+    width: 20px;
+    background-color: #DCE7F2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1a3a6b;
 }
 
 /* animation */

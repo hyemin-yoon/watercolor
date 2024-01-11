@@ -47,16 +47,17 @@ a {
     cursor: url(../images/cursor2.cur), auto
 }
 
-/* cursor */
+/* scroll-bar */
 
-body,
-html {
-    cursor: url(../images/cursor1.cur), auto
+body::-webkit-scrollbar {
+    width: 20px;
+    background-color: #DCE7F2;
 }
 
-a {
-    cursor: url(../images/cursor2.cur), auto
+body::-webkit-scrollbar-thumb {
+    background-color: #1a3a6b;
 }
+
 
 /* animation */
 

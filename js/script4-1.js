@@ -38,12 +38,12 @@ $(function () {
     });
 
 
-    $(".tag_position").click(function () {
-        $(".tag_position").toggleClass("on");
-        if ($(".tag_position").hasClass("on")) {
-            $(".tag_position").attr("src", "images/goods_tagh.png");
+    $(".tag").click(function () {
+        $(this).find(".tag_position").toggleClass("on");
+        if ($(this).find(".tag_position").hasClass("on")) {
+            $(this).find(".tag_position").attr("src", "images/goods_tagh.png");
         } else {
-            $(".tag_position").attr("src", "images/goods_tag.png");
+            $(this).find(".tag_position").attr("src", "images/goods_tag.png");
         }
     });
 
