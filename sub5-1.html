@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./js/script5-1.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/sub5-1.css">
+    <!-- 웹폰트 -->
+    <link rel="stylesheet" href="./fonts/pretendard/pretendard.css">
+    <link rel="stylesheet" href="./fonts/one/stylesheet.css">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header_inner">
+            <ul class="gnb">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EXHIBITION</a></li>
+                <li><a href="#">CAFE</a></li>
+                <li><a href="#"><img src="./images/logo2.png" alt="로고"></a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#"><img src="./images/maximizer.png" alt="검색 아이콘"></a></li>
+            </ul>
+
+            <div class="sub_menu">
+                <ul>
+                    <li><a href="#">브랜드 소개</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">안내</a></li>
+                    <li><a href="#">전시</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">메뉴</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">ONLY</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div><!--sub_menu-->
+        </div><!--header_inner-->
+
+        <div class="search2">
+            <div class="search_inner">
+                <input type="text" placeholder="검색어를 입력하세요" class="engine">
+                <p class="btn_sch">
+                    <img src="./images/maximizer2.png" alt="돋보기 아이콘">
+                </p>
+            </div><!--search_inner-->
+
+            <a href="#none" class="x2">
+                <img src="./images/x2.png" alt="닫기">
+            </a>
+        </div><!--search-->
+
+    </div><!--header-->
+
+
+    <div id="wrapper" class="main_banner">
+
+        <ul class="tabs">
+            <li><a href="#tab1">1</a></li>
+            <li><a href="#tab2">2</a></li>
+            <li><a href="#tab3">3</a></li>
+            <li><a href="#tab4">4</a></li>
+        </ul>
+
+        <div class="tab_container">
+
+            <div id="tab1" class="tab_content">
+                <img src="./images/cm_banner1.jpg" alt="배너1">
+            </div>
+
+            <div id="tab2" class="tab_content">
+                <img src="./images/cm_banner2.jpg" alt="배너2">
+            </div>
+
+            <div id="tab3" class="tab_content">
+                <img src="./images/cm_banner3.jpg" alt="배너3">
+            </div>
+
+            <div id="tab4" class="tab_content">
+                <img src="./images/cm_banner4.jpg" alt="배너4">
+            </div>
+
+            <p>
+                <img src="./images/cm_logo.png" alt="로고">
+            </p>
+        </div>
+
+    </div><!--main_banner-->
+
+
+    <div id="notice" data-aos="fade-right" data-aos-duration="1000">
+        <div class="notice_inner">
+            <h1 class="title">NOTICE</h1>
+            <ul class="n_box">
+                <li class="box_inner">
+                    <img src="./images/box.jpg" alt="네모 박스">
+                    <a href="#">
+                        <ul class="dbox">
+                            <li>
+                                <span>[공사 연장]</span>
+                                2F 출입 제한 연장 안내 (~10/1)
+                            </li>
+                            <li>2024. 07. 11</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="box_inner">
+                    <img src="./images/box.jpg" alt="네모 박스">
+                    <a href="#">
+                        <ul class="dbox">
+                            <li>
+                                <span>[재고 소진]</span>
+                                '특별사진전' 리미티드 폴라로이드 티켓 발권 종료
+                            </li>
+                            <li>2024. 08. 15</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="box_inner">
+                    <img src="./images/box.jpg" alt="네모 박스">
+                    <a href="#">
+                        <ul class="dbox">
+                            <li>
+                                <span>[재고 소진]</span>
+                                'Cezanne : 순간을 영원으로' 엽서 증정 이벤트 종료
+                            </li>
+                            <li>2024. 08. 30</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="more">
+                <a href="#">
+                    <p class="circle">
+                        <img src="./images/circle.png" alt="더보기원">
+                    </p>
+
+                    <p class="arrow">
+                        <img src="./images/more5.png" alt="더보기">
+                    </p>
+                </a>
+            </div><!--more-->
+
+        </div><!--notice_inner-->
+    </div><!--notice-->
+
+    <div class="flow_textbox">
+        <div class="text_wrapper">
+            <div class="slide">
+                <img src="./images/flow1.png" alt="흘러가는 이미지1">
+                <img src="./images/flow2.png" alt="흘러가는 이미지2">
+                <img src="./images/flow1.png" alt="흘러가는 이미지1">
+            </div><!--slide-->
+            <div class="slide">
+                <img src="./images/flow2.png" alt="흘러가는 이미지2">
+                <img src="./images/flow1.png" alt="흘러가는 이미지1">
+                <img src="./images/flow2.png" alt="흘러가는 이미지2">
+            </div><!--slide-->
+        </div><!--text_wrapper-->
+    </div><!--flow_textbox-->
+
+    <div id="letter">
+
+        <div class="letter_inner">
+            <h1 class="title">NEWS LETTER</h1>
+
+            <div class="swiper letter_contents">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="h_box h_1" data-dot-number="1">
+                            <a href="#">
+                                <div class="l_inner">
+                                    <img src="./images/nl_1-1.png" alt="테두리">
+                                    <p>2024. 6. 27</p>
+                                    <h3>마천루와 향수</h3>
+                                    <div class="l_hover">
+                                        <div class="l_innerh">
+                                            <h3>이안 갤로퍼</h3>
+                                            <img src="./images/nl_1.png" alt="뉴스레터1">
+                                        </div><!--l_innerh-->
+                                    </div><!--l_hover-->
+                                </div><!--l_inner-->
+
+                            </a>
+                        </div><!--h_box-->
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h_box h_2" data-dot-number="2">
+                            <a href="#">
+                                <div class="l_inner">
+                                    <img src="./images/nl_1-1.png" alt="테두리">
+                                    <p>2024. 7. 4</p>
+                                    <h3>1도의 차이</h3>
+                                    <div class="l_hover">
+                                        <div class="l_innerh">
+                                            <h3>홍순종</h3>
+                                            <img src="./images/nl_2.png" alt="뉴스레터2">
+                                        </div><!--l_innerh-->
+                                    </div><!--l_hover-->
+                                </div><!--l_inner-->
+
+                            </a>
+                        </div><!--h_box-->
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h_box h_3" data-dot-number="3">
+                            <a href="#">
+                                <div class="l_inner">
+                                    <img src="./images/nl_1-1.png" alt="테두리">
+                                    <p>2024. 7. 11</p>
+                                    <h3>2024 루키</h3>
+                                    <div class="l_hover">
+                                        <div class="l_innerh">
+                                            <h3>올가 그레이엄</h3>
+                                            <img src="./images/nl_3.png" alt="뉴스레터3">
+                                        </div><!--l_innerh-->
+                                    </div><!--l_hover-->
+                                </div><!--l_inner-->
+
+                            </a>
+                        </div><!--h_box-->
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h_box h_4" data-dot-number="4">
+                            <a href="#">
+                                <div class="l_inner">
+                                    <img src="./images/nl_1-1.png" alt="테두리">
+                                    <p>2024. 7. 18</p>
+                                    <h3>사랑은 은하수 다방에서</h3>
+                                    <div class="l_hover">
+                                        <div class="l_innerh">
+                                            <h3>전포 카페 거리</h3>
+                                            <img src="./images/nl_4.png" alt="뉴스레터4">
+                                        </div><!--l_innerh-->
+                                    </div><!--l_hover-->
+                                </div><!--l_inner-->
+
+                            </a>
+                        </div><!--h_box-->
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div><!--letter_inner-->
+
+
+        <p><img src="./images/c_bg1.jpg" alt="뉴스레터 배경1" class="c_bg c1"></p>
+        <p><img src="./images/c_bg2.jpg" alt="뉴스레터 배경2" class="c_bg c2"></p>
+        <p><img src="./images/c_bg3.jpg" alt="뉴스레터 배경3" class="c_bg c3"></p>
+        <p><img src="./images/c_bg4.jpg" alt="뉴스레터 배경4" class="c_bg c4"></p>
+
+
+    </div><!--letter-->
+
+
+    <div id="subscribe" data-aos="fade-left" data-aos-duration="1000">
+        <div class="s_inner">
+            <h1 class="s_title">A Spoon of</h1>
+            <div class="s_wave">
+                <h1>SUGAR</h1>
+                <h1>SUGAR</h1>
+            </div><!--s_wave-->
+        </div><!--s_inner-->
+
+        <p><a href="#">SUBSCRIBE US</a></p>
+    </div><!--subscribe-->
+
+
+
+    <div id="sns">
+        <p><img src="./images/s_sns.png" alt="인스타그램 아이콘"></p>
+        <h1 class="title">water.color_official</h1>
+    </div><!--sns-->
+
+
+
+    <div id="slide">
+        <div class="slide_inner">
+            <ul>
+                <li><a href="#"><img src="./images/sns_1.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#오늘의스슈</p>
+                    </div><!--slide_hover1-->
+
+                </li>
+                <li><a href="#"><img src="./images/sns_2.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#전시회공?</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_3.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#폴세잔#빛</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_4.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#해운대일몰</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_5.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#베지테리언</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_6.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#그림전시회</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_7.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#설치미술관</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_8.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#프롬브론테</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_9.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#바다쓰레기</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_10.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#야외전시관</p>
+                    </div><!--slide_hover1-->
+                </li>
+
+            </ul>
+            <ul>
+                <li><a href="#"><img src="./images/sns_1.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#오늘의스슈</p>
+                    </div><!--slide_hover1-->
+
+                </li>
+                <li><a href="#"><img src="./images/sns_2.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#전시회공?</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_3.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#폴세잔#빛</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_4.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#해운대일몰</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_5.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#베지테리언</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_6.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#그림전시회</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_7.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#설치미술관</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_8.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#프롬브론테</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_9.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#바다쓰레기</p>
+                    </div><!--slide_hover1-->
+                </li>
+                <li><a href="#"><img src="./images/sns_10.png" alt="슬라이드 이미지"></a>
+                    <div class="heart"></div>
+
+                    <div class="slide_hover1">
+                        <p>#야외전시관</p>
+                    </div><!--slide_hover1-->
+                </li>
+
+            </ul>
+        </div><!--slide_inner-->
+    </div><!--slide-->
+
+
+
+    <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(26,58,107,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(26,58,107,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(26,58,107,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(26,58,107,0.1)" />
+            </g>
+        </svg>
+    </div>
+    <!--Waves end-->
+
+
+    <div id="footer">
+        <div class="footer_inner">
+            <!-- 마진오토, 플렉스 -->
+            <div class="f_left">
+                <h1>
+                    <img src="./images/logo_w.png" alt="로고">
+                </h1>
+                <ul>
+                    <li>워터;컬러</li>
+                    <li>612020 부산 해운대구 우동 710-1 </li>
+                    <li>Watercolor, 710-1, U-dong, Haeundae-gu, Busan, Republic of Korea</li>
+                    <li>ⓒ WATERCOLOR, All Rights Reserved.
+                    </li>
+                </ul>
+            </div><!--f_left-->
+
+            <div class="f_right">
+                <ul>
+                    <li><a href="#"><img src="./images/sns1.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="./images/sns2.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="./images/sns3.png" alt="인스타그램"></a></li>
+                </ul>
+                <p>OPENING HOURS</p>
+                <p>TUE - SAT 10:00 - 19:00</p>
+                <p>SUN 10:00 - 20:00</p>
+                <p>CALL : 051 - 099 - 0504</p>
+            </div><!--f_right-->
+        </div><!--footer_inner-->
+    </div><!--footer-->
+
+
+
+
+    <!-- js -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script5-1.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

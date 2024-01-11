@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('NanumBarunGothicOTFA.eot');
+    src: url('NanumBarunGothicOTFA.eot?#iefix') format('embedded-opentype'),
+        url('NanumBarunGothicOTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('NanumBarunGothicOTFBoldA.eot');
+    src: url('NanumBarunGothicOTFBoldA.eot?#iefix') format('embedded-opentype'),
+        url('NanumBarunGothicOTFBoldA.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('NanumBarunGothicOTFLight.eot');
+    src: url('NanumBarunGothicOTFLight.eot?#iefix') format('embedded-opentype'),
+        url('NanumBarunGothicOTFLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('NanumBarunGothicOTFUltraLight.eot');
+    src: url('NanumBarunGothicOTFUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('NanumBarunGothicOTFUltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
