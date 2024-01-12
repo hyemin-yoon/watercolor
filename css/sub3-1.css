@@ -47,10 +47,7 @@ a,
 .swiper-button-next,
 .swiper-button-prev,
 .close,
-.open,
-.btn1,
-.btn2,
-.btn3 {
+.open {
     cursor: url(../images/cursor2.cur), auto
 }
 

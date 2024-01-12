@@ -314,9 +314,19 @@ a,
 
 .swiper-slide {
     text-align: center;
-    padding-bottom: 60px;
 }
 
+.swiper-slide:nth-child(1) {
+    padding-top: 60px;
+}
+
+.swiper-slide:nth-child(2) {
+    padding-top: 50px;
+}
+
+.swiper-slide:nth-child(3) {
+    padding-top: 70px;
+}
 
 /* section2 */
 
