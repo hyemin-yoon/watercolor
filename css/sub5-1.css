@@ -363,6 +363,7 @@ body::-webkit-scrollbar-thumb {
 
 #notice {
     padding: 130px 0;
+    overflow: hidden;
 }
 
 .notice_inner {
@@ -624,6 +625,7 @@ body::-webkit-scrollbar-thumb {
     background: url(../images/s_bg.jpg);
     height: 420px;
     position: relative;
+    overflow: hidden;
 }
 
 .s_inner {

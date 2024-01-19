@@ -846,6 +846,7 @@ body::-webkit-scrollbar-thumb {
 
 #news {
     display: flex;
+    overflow: hidden;
 
 }
 
