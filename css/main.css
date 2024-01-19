@@ -476,7 +476,7 @@ body::-webkit-scrollbar-thumb {
 .tab_text {
     width: 50%;
     background-color: #f7f6f3;
-    padding: 65px 0 60px 300px;
+    padding: 65px 0 60px 14.5%;
     box-sizing: border-box;
 }
 
