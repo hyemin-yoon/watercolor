@@ -34,6 +34,7 @@ body {
     font-size: 15px;
     line-height: 100%;
     color: #02012A;
+    min-width: 1450px;
 }
 
 /* cursor */
